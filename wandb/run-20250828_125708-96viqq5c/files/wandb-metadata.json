@@ -1,0 +1,84 @@
+{
+  "os":  "Linux-6.8.0-60-generic-x86_64-with-glibc2.39",
+  "python":  "CPython 3.11.5",
+  "startedAt":  "2025-08-28T12:57:09.108480Z",
+  "args":  [
+    "--files_to_load",
+    "/data1/is156025/zb276885/LMFCA-Net/data",
+    "--config_yaml",
+    "/data1/is156025/zb276885/LMFCA-Net/configs/default.yaml"
+  ],
+  "program":  "/data1/is156025/zb276885/LMFCA-Net/train.py",
+  "codePath":  "train.py",
+  "git":  {
+    "remote":  "https://github.com/ZBenslimane/LMFCA-Net.git",
+    "commit":  "375093e3d0671f0fc9ca4c2649d22204a76bbecb"
+  },
+  "email":  "zahra-hafida.benslimane@cea.fr",
+  "root":  "/data1/is156025/zb276885/LMFCA-Net",
+  "host":  "is156025",
+  "executable":  "/local/home/zb276885/miniforge3/envs/tango_env/bin/python3",
+  "codePathLocal":  "train.py",
+  "cpu_count":  64,
+  "cpu_count_logical":  64,
+  "gpu":  "NVIDIA A100-PCIE-40GB",
+  "gpu_count":  7,
+  "disk":  {
+    "/":  {
+      "total":  "210241560576",
+      "used":  "157429870592"
+    }
+  },
+  "memory":  {
+    "total":  "811466809344"
+  },
+  "cpu":  {
+    "count":  64,
+    "countLogical":  64
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA A100-PCIE-40GB",
+      "memoryTotal":  "42949672960",
+      "cudaCores":  6912,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA A100-PCIE-40GB",
+      "memoryTotal":  "42949672960",
+      "cudaCores":  6912,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA A100-PCIE-40GB",
+      "memoryTotal":  "42949672960",
+      "cudaCores":  6912,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA A100-PCIE-40GB",
+      "memoryTotal":  "42949672960",
+      "cudaCores":  6912,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA A100-PCIE-40GB",
+      "memoryTotal":  "42949672960",
+      "cudaCores":  6912,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA A100-PCIE-40GB",
+      "memoryTotal":  "42949672960",
+      "cudaCores":  6912,
+      "architecture":  "Ampere"
+    },
+    {
+      "name":  "NVIDIA A100-PCIE-40GB",
+      "memoryTotal":  "42949672960",
+      "cudaCores":  6912,
+      "architecture":  "Ampere"
+    }
+  ],
+  "cudaVersion":  "12.4"
+}

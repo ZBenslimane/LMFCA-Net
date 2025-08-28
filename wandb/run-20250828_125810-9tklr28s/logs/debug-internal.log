@@ -1,0 +1,7 @@
+{"time":"2025-08-28T12:58:10.692667031Z","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"/data1/is156025/zb276885/LMFCA-Net/wandb/run-20250828_125810-9tklr28s/logs/debug-core.log"}
+{"time":"2025-08-28T12:58:10.810033926Z","level":"INFO","msg":"created new stream","id":"9tklr28s"}
+{"time":"2025-08-28T12:58:10.810122626Z","level":"INFO","msg":"stream: started","id":"9tklr28s"}
+{"time":"2025-08-28T12:58:10.810159946Z","level":"INFO","msg":"writer: Do: started","stream_id":"9tklr28s"}
+{"time":"2025-08-28T12:58:10.810244205Z","level":"INFO","msg":"sender: started","stream_id":"9tklr28s"}
+{"time":"2025-08-28T12:58:10.810266995Z","level":"INFO","msg":"handler: started","stream_id":"9tklr28s"}
+{"time":"2025-08-28T12:58:12.160782325Z","level":"INFO","msg":"Starting system monitor"}

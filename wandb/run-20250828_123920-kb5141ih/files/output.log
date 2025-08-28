@@ -1,0 +1,23 @@
+[Sanity] in_ch=8 (2*C), F=256, Tseg=184. Batch sizes: mixture_2ft=(8, 8, 256, 184), cirm_2ft=(8, 2, 256, 184)
+
+------------------------------------- Calculate Flops Results -------------------------------------
+Notations:
+number of parameters (Params), number of multiply-accumulate operations(MACs),
+number of floating-point operations (FLOPs), floating-point operations per second (FLOPS),
+fwd FLOPs (model forward propagation FLOPs), bwd FLOPs (model backward propagation FLOPs),
+default model backpropagation takes 2.00 times as much computation as forward propagation.
+
+Total Training Params:                                                  2.13 M
+fwd MACs:                                                               6.8025 GMACs
+fwd FLOPs:                                                              13.8423 GFLOPS
+fwd+bwd MACs:                                                           20.4075 GMACs
+fwd+bwd FLOPs:                                                          41.527 GFLOPS
+---------------------------------------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/data1/is156025/zb276885/LMFCA-Net/train.py", line 228, in <module>
+    f"Epoch {epoch:03d}/{n_epochs} | "
+    ^^^^^^^^^^^
+  File "/data1/is156025/zb276885/LMFCA-Net/train.py", line 133, in train
+    input()
+        ^^^^
+KeyboardInterrupt

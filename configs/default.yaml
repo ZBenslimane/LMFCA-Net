@@ -1,0 +1,30 @@
+wandb :
+  enable : True
+  project : lmfca-net
+seed: 0
+ref_mic_ind : 0
+preprocess:
+  normalize: true    # set to false to keep raw levels
+stft:
+  n_fft: 510
+  win_length: 510
+  hop_length: 255
+  center: True
+  # optional:
+  # PERMUTATIONS: [0,1,2,3]   # reorder channels if needed
+dataset:
+  segment_frames: 184            # fixed crop length (divisible by 8)
+  stride_frames_train: 92        # 50% overlap for training
+  stride_frames_valid: 92       # non-overlapping for validation
+  min_frames_for_multi: 128      # only multi-crop if utterance has at least this many frames
+  max_crops_per_utt: null        # or set to an int to cap very long utterances
+  use_memmap_shapes: true        # faster shape peeking
+# ====== Training ======
+n_files: 
+n_epochs: 100
+batch_size: 8
+num_workers: 4
+model_save_path: ./checkpoints   # directory will be created if missing
+loss :
+  alpha : 0.1
+  beta : 0.0001

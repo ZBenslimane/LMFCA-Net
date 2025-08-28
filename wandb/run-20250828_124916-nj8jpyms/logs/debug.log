@@ -1,0 +1,23 @@
+2025-08-28 12:49:16,293 INFO    MainThread:1789566 [wandb_setup.py:_flush():68] Current SDK version is 0.19.6
+2025-08-28 12:49:16,293 INFO    MainThread:1789566 [wandb_setup.py:_flush():68] Configure stats pid to 1789566
+2025-08-28 12:49:16,293 INFO    MainThread:1789566 [wandb_setup.py:_flush():68] Loading settings from /local/home/zb276885/.config/wandb/settings
+2025-08-28 12:49:16,293 INFO    MainThread:1789566 [wandb_setup.py:_flush():68] Loading settings from /data1/is156025/zb276885/LMFCA-Net/wandb/settings
+2025-08-28 12:49:16,293 INFO    MainThread:1789566 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-08-28 12:49:16,293 INFO    MainThread:1789566 [wandb_init.py:setup_run_log_directory():637] Logging user logs to /data1/is156025/zb276885/LMFCA-Net/wandb/run-20250828_124916-nj8jpyms/logs/debug.log
+2025-08-28 12:49:16,293 INFO    MainThread:1789566 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to /data1/is156025/zb276885/LMFCA-Net/wandb/run-20250828_124916-nj8jpyms/logs/debug-internal.log
+2025-08-28 12:49:16,293 INFO    MainThread:1789566 [wandb_init.py:init():756] calling init triggers
+2025-08-28 12:49:16,293 INFO    MainThread:1789566 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'wandb': {'enable': True, 'project': 'lmfca-net'}, 'seed': 0, 'ref_mic_ind': 0, 'preprocess': {'normalize': True}, 'stft': {'n_fft': 510, 'win_length': 510, 'hop_length': 255, 'center': True}, 'dataset': {'segment_frames': 184, 'stride_frames_train': 92, 'stride_frames_valid': 92, 'min_frames_for_multi': 128, 'max_crops_per_utt': None, 'use_memmap_shapes': True}, 'n_files': None, 'n_epochs': 100, 'batch_size': 8, 'num_workers': 4, 'model_save_path': './checkpoints', 'loss': {'alpha': 0.1, 'beta': 0.0001}, '_wandb': {}}
+2025-08-28 12:49:16,293 INFO    MainThread:1789566 [wandb_init.py:init():789] starting backend
+2025-08-28 12:49:16,498 INFO    MainThread:1789566 [wandb_init.py:init():793] sending inform_init request
+2025-08-28 12:49:16,504 INFO    MainThread:1789566 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-08-28 12:49:16,505 INFO    MainThread:1789566 [wandb_init.py:init():808] backend started and connected
+2025-08-28 12:49:16,506 INFO    MainThread:1789566 [wandb_init.py:init():901] updated telemetry
+2025-08-28 12:49:16,513 INFO    MainThread:1789566 [wandb_init.py:init():936] communicating run to backend with 90.0 second timeout
+2025-08-28 12:49:16,891 INFO    MainThread:1789566 [wandb_init.py:init():994] starting run threads in backend
+2025-08-28 12:49:17,012 INFO    MainThread:1789566 [wandb_run.py:_console_start():2385] atexit reg
+2025-08-28 12:49:17,012 INFO    MainThread:1789566 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-08-28 12:49:17,013 INFO    MainThread:1789566 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-08-28 12:49:17,014 INFO    MainThread:1789566 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-08-28 12:49:17,015 INFO    MainThread:1789566 [wandb_init.py:init():1036] run started, returning control to user process
+2025-08-28 12:56:33,182 WARNING MsgRouterThr:1789566 [router.py:message_loop():75] message_loop has been closed

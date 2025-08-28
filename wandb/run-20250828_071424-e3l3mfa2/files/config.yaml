@@ -1,0 +1,61 @@
+_wandb:
+    value:
+        cli_version: 0.19.6
+        m: []
+        python_version: 3.11.5
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 53
+                - 55
+                - 71
+            "2":
+                - 1
+                - 5
+                - 11
+                - 49
+                - 53
+                - 55
+                - 71
+            "3":
+                - 16
+                - 23
+                - 55
+            "4": 3.11.5
+            "5": 0.19.6
+            "6": 4.48.0
+            "8":
+                - 5
+            "12": 0.19.6
+            "13": linux-x86_64
+dataset:
+    value:
+        max_crops_per_utt: null
+        min_frames_for_multi: 128
+        segment_frames: 184
+        stride_frames_train: 92
+        stride_frames_valid: 92
+        use_memmap_shapes: true
+loss:
+    value:
+        alpha: 0.3
+        beta: 0.2
+n_files:
+    value: 4
+preprocess:
+    value:
+        normalize: true
+ref_mic_ind:
+    value: 0
+stft:
+    value:
+        center: false
+        hop_length: 510
+        n_fft: 510
+        win_length: 255
+wandb:
+    value:
+        project: lmfca-net
